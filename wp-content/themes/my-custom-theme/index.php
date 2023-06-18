@@ -1,11 +1,9 @@
 <?php
-    function greet($name){
-        echo "<p>Hey $name<p/>";
-    }
-    
-    greet('John');
-    greet('Jane');
+  $names = array('a','b','c','d');
+  $count = 0;
+  while($count < count($names)){
+    echo "<li> $names[$count] </li>";
+    $count++;
+  }
     ?>
 
-<h1><?php bloginfo('name'); ?></h1>
-<p><?php bloginfo('description'); ?></p>
