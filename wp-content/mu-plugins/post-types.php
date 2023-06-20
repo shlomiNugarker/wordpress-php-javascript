@@ -6,6 +6,7 @@ function post_types()
         'event',
         array(
             'public' => true,
+            'show_in_rest' => true,
             'labels' => array(
                 'name' => 'Events',
                 'add_new_item' => 'Add New Event',
